@@ -319,18 +319,23 @@ figure {
 		ul {
 			padding: 0;
 			margin: 0;
+			margin-right: 6px;
 			li {
 				padding: 0;
 				margin: 0;
 				display: inline;
 				list-style: none;
 				a {
-					color: rgba(255,255,255,.3);
+					color: rgba(0,0,0,.7);
 					padding: 4px;
 					&:hover, &:active, &:focus {
 						text-decoration: none;
 						outline: none;
 						color: $brand-primary;
+					}
+
+					i {
+						font-size: 22px;
 					}
 				}
 			}
