@@ -30,6 +30,131 @@ $brand-bg-color: $brand-white;
 $input-border-focus:  $brand-primary !default;
 $form-group-margin-bottom:       30px !default;
 
+// projects
+.project-title {
+	color: #fff !important;
+	outline: none;
+	text-decoration: none !important;
+}
+.portfolio-modal {
+	.modal-backdrop {
+		display: none;
+		opacity: 0;
+	}
+	#closebt-container {
+		position: relative;
+		width: 100%;
+		padding: 20px;
+		margin-top: 0;
+		.closebt {
+			-webkit-transition: all 0.2s;
+			-moz-transition: all 0.2s;
+			-ms-transition: all 0.2s;
+			-o-transition: all 0.2s;
+			transition: all 0.2s;
+			cursor:pointer;
+			fill: #000000;
+			&:hover {
+				transform:rotate(90deg);
+			}
+	    }
+	}
+	.modal-content {
+		position: relative;
+		outline: 0;
+		background-color: #fff;
+		h2 {
+			margin-bottom: 15px;
+    		font-size: 3em;
+    		text-transform: none;
+		}
+		p {
+			margin-bottom: 30px;
+			.item-intro {
+				margin: 20px 0 30px;
+			    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+				font-size: 18px;
+				font-style: normal;
+			}
+		}
+		ul {
+			.list-inline {
+				margin-top: 0;
+    			margin-bottom: 30px;
+			}
+		}
+		img {
+			margin: 0 auto;
+			margin-bottom: 30px;
+		}
+		.close-modal {
+		    position: absolute;
+		    top: 25px;
+		    right: 25px;
+		    width: 75px;
+		    height: 75px;
+		    background-color: transparent;
+		    cursor: pointer;
+		    &:hover {
+		    	opacity: .3;
+		    }
+		    .lr {
+		    	z-index: 1051;
+			    width: 1px;
+			    height: 75px;
+			    margin-left: 35px;
+			    background-color: #222;
+			    -webkit-transform: rotate(45deg);
+			    -ms-transform: rotate(45deg);
+			    transform: rotate(45deg);
+			    .rl {
+			    	z-index: 1052;
+				    width: 1px;
+				    height: 75px;
+				    background-color: #222;
+				    -webkit-transform: rotate(90deg);
+				    -ms-transform: rotate(90deg);
+				    transform: rotate(90deg);
+			    }
+		    }
+		}
+	}
+}
+
+.modal-body {
+	margin: 20px 50px;
+	text-align: center;
+	h2 {
+		margin-bottom: 10px;
+	}
+	.tab-in {
+		margin-left: 30px;
+		text-align: left;
+	}
+	.bottom10 {
+		margin-bottom: 10px;
+	}
+	li {
+		list-style-type: none;
+	}
+	.center {
+		text-align: center;
+	}
+	.left {
+		text-align: left;
+	}
+}
+.text-muted {
+	font-weight: lighter;
+	font-style: italic;
+}
+.img-responsive {
+	max-width: 50%;
+}
+#item > p  {
+	margin:0px;
+	color:#E74B3D;
+}
 
 
 // Mixin
