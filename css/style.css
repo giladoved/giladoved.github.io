@@ -4,6 +4,12 @@
   outline: none;
   text-decoration: none !important;
 }
+.regular {
+  color: rgba(0, 0, 0, 0.7);;
+}
+.low-m {
+  margin-bottom:  0.5rem;
+}
 
 .portfolio-modal .modal-backdrop {
   display: none;
@@ -1277,7 +1283,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 300px;
+  height: 400px;
   width: 100%;
   display: block;
   margin-bottom: 30px;
