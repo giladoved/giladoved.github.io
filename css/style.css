@@ -107,7 +107,12 @@
   margin-bottom: 10px;
 }
 .modal-body li {
-  list-style-type: none;
+/*  list-style-type: none;*/
+  text-align: left;
+}
+.modal-body .lefty {
+  text-align: left;
+  margin-bottom: 10px;
 }
 .modal-body .center {
   text-align: center;
